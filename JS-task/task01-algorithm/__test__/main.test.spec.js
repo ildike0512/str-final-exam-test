@@ -28,7 +28,7 @@ describe('JS algoritmus teszt cinema listára', () => {
         expect(results[1]).toBe('São Pedro');
     });
     
-    test('Név szerinti rendezés ellenőrzése', () => {
+    /* test('Név szerinti rendezés ellenőrzése', () => {
         const results = citySorter(cityList, 'name');
         expect(results[0].name).toBe('Béziers');
         expect(results[1].name).toBe('Cockburn Town');
@@ -47,5 +47,5 @@ describe('JS algoritmus teszt cinema listára', () => {
         expect(sliced[0].name).toBe('Béziers');
         expect(sliced[1].name).toBe('Cockburn Town');
         expect(sliced[2].name).toBe('Guaiúba');
-    });
+    }); */
 });
